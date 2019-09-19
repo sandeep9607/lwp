@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "984977092790",
+    "firebase_url": "https://learn-with-picture-55db1.firebaseio.com",
+    "project_id": "learn-with-picture-55db1",
+    "storage_bucket": "learn-with-picture-55db1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984977092790:android:7c2a0445f26a40dcfbb617",
+        "android_client_info": {
+          "package_name": "com.sanchi.lwp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984977092790-u8g4gu9cir94upds1quulphvk7nhlfch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUEUNxu-Dy0_9ggJSc8H0wpF-GOqCEp2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984977092790-u8g4gu9cir94upds1quulphvk7nhlfch.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "984977092790-nreha4ivb2msipc41jkgn74tp7f36rom.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sanchi.lwp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
