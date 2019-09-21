@@ -10,7 +10,6 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-
   List<WordModel> _wordModel = List<WordModel>();
   var _count = 0;
 
@@ -33,7 +32,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('A-Z'),
+        title: Text('Alphabets'),
       ),
       body: SafeArea(
         child: Container(
@@ -54,9 +53,10 @@ class _HomeState extends State<Home> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => SecondScreen(_wordModel[index].words)));
+                                builder: (context) =>
+                                    SecondScreen(_wordModel[index])));
                       },
-                      child: CardItems(index, _wordModel[index].latter),
+                      child: CardItems(index, _wordModel[index].image),
                     );
                   },
                   childCount: _count,
@@ -73,17 +73,21 @@ class _HomeState extends State<Home> {
 
 class CardItems extends StatelessWidget {
   final int index;
-  final String item;
-  CardItems(this.index, this.item);
+  final String image;
+  CardItems(this.index, this.image);
 
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: BoxDecoration(
+          borderRadius: BorderRadius.all(Radius.circular(10)),
+          border: Border.all(color: Colors.black12)),
       alignment: Alignment.center,
-      color: Colors.teal[100 * (index % 9)],
-      child: Text(
-        item,
-        style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+      // color: Colors.teal[100 * (index % 9)],
+      child: FadeInImage.assetNetwork(
+        placeholder: 'images/loading.gif',
+        image: image,
+        fit: BoxFit.fill,
       ),
     );
   }

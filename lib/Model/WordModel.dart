@@ -10,15 +10,18 @@ String wordModelToJson(List<WordModel> data) => json.encode(new List<dynamic>.fr
 
 class WordModel {
     String latter;
+    String image;
     List<Word> words;
 
     WordModel({
         this.latter,
+        this.image,
         this.words,
     });
 
     factory WordModel.fromMap(Map<String, dynamic> json) => new WordModel(
         latter: json["latter"] == null ? null : json["latter"],
+        image: json["image"] == null ? null : json["image"],
         words: json["words"] == null ? null : new List<Word>.from(json["words"].map((x) => Word.fromMap(x))),
     );
 

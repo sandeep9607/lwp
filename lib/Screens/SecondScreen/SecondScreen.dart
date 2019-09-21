@@ -6,71 +6,72 @@ import 'package:firebase_admob/firebase_admob.dart';
 import 'package:lwp/Model/WordModel.dart';
 
 class SecondScreen extends StatefulWidget {
-  final List<Word> _words;
-  SecondScreen(this._words);
+  final WordModel _alphabet;
+  SecondScreen(this._alphabet);
 
   @override
-  _SecondScreenState createState() => _SecondScreenState(_words);
+  _SecondScreenState createState() => _SecondScreenState(_alphabet);
 }
 
 class _SecondScreenState extends State<SecondScreen> {
-final List<Word> _words;
-_SecondScreenState(this._words);
+  final WordModel _alphabet;
+  _SecondScreenState(this._alphabet);
 
   String admobId() => Platform.isAndroid
-        ? 'ca-app-pub-3568261915655391~9783325485'
-        : 'ca-app-pub-3568261915655391~4433305191';
+      ? 'ca-app-pub-3568261915655391~9783325485'
+      : 'ca-app-pub-3568261915655391~4433305191';
 
-static final MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
-  keywords: <String>['Education', 'Learning, Picture, A-Z'],
-  contentUrl: 'https://flutter.io',
-  childDirected: true,
-  // birthday: DateTime.now(),
-  // designedForFamilies: false,
-  // gender: MobileAdGender.male, // or MobileAdGender.female, MobileAdGender.unknown
-  testDevices: <String>[], // Android emulators are considered test devices
-);
+  static final MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
+    keywords: <String>['Education', 'Learning, Picture, A-Z'],
+    contentUrl: 'https://flutter.io',
+    childDirected: true,
+    // birthday: DateTime.now(),
+    // designedForFamilies: false,
+    // gender: MobileAdGender.male, // or MobileAdGender.female, MobileAdGender.unknown
+    testDevices: <String>[], // Android emulators are considered test devices
+  );
 
+  BannerAd _bannerAd;
+  InterstitialAd _interstitialAd;
 
-BannerAd _bannerAd;
-InterstitialAd _interstitialAd;
+  BannerAd createBannerAd() {
+    return BannerAd(
+      // Replace the testAdUnitId with an ad unit id from the AdMob dash.
+      // https://developers.google.com/admob/android/test-ads
+      // https://developers.google.com/admob/ios/test-ads
+      adUnitId: Platform.isAndroid
+          ? 'ca-app-pub-3568261915655391/8470243819' //'ca-app-pub-3940256099942544/6300978111' test interestial ad
+          : 'ca-app-pub-3568261915655391/3008542880',
+      size: AdSize.smartBanner, //AdSize.smartBanner
+      targetingInfo: targetingInfo,
+      listener: (MobileAdEvent event) {
+        print("BannerAd event is $event");
+      },
+    );
+  }
 
-BannerAd createBannerAd(){
-  return BannerAd(
-  // Replace the testAdUnitId with an ad unit id from the AdMob dash.
-  // https://developers.google.com/admob/android/test-ads
-  // https://developers.google.com/admob/ios/test-ads
-  adUnitId: Platform.isAndroid
-        ? 'ca-app-pub-3568261915655391/8470243819' //'ca-app-pub-3940256099942544/6300978111' test interestial ad
-        : 'ca-app-pub-3568261915655391/3008542880',
-  size: AdSize.smartBanner,               //AdSize.smartBanner
-  targetingInfo: targetingInfo,
-  listener: (MobileAdEvent event) {
-    print("BannerAd event is $event");
-  },
-);
-}
+  InterstitialAd createInterstitialAd() {
+    return InterstitialAd(
+      // Replace the testAdUnitId with an ad unit id from the AdMob dash.
+      // https://developers.google.com/admob/android/test-ads
+      // https://developers.google.com/admob/ios/test-ads
+      adUnitId: Platform.isAndroid
+          ? 'ca-app-pub-3568261915655391/7552516456' //'ca-app-pub-3940256099942544/1033173712' test ad id
+          : 'ca-app-pub-3568261915655391/2816971190',
+      targetingInfo: targetingInfo,
+      listener: (MobileAdEvent event) {
+        print("InterstitialAd event is $event");
+      },
+    );
+  }
 
-InterstitialAd createInterstitialAd(){
-  return InterstitialAd(
-  // Replace the testAdUnitId with an ad unit id from the AdMob dash.
-  // https://developers.google.com/admob/android/test-ads
-  // https://developers.google.com/admob/ios/test-ads
-  adUnitId: Platform.isAndroid
-        ? 'ca-app-pub-3568261915655391/7552516456' //'ca-app-pub-3940256099942544/1033173712' test ad id
-        : 'ca-app-pub-3568261915655391/2816971190',
-  targetingInfo: targetingInfo,
-  listener: (MobileAdEvent event) {
-    print("InterstitialAd event is $event");
-  },
-);
-}
-
-@override
+  @override
   void initState() {
     super.initState();
     FirebaseAdMob.instance.initialize(appId: admobId());
-_bannerAd = createBannerAd() .. load() ..show();
+    _bannerAd = createBannerAd()
+      ..load()
+      ..show();
   }
 
   @override
@@ -82,10 +83,9 @@ _bannerAd = createBannerAd() .. load() ..show();
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
-        title: Text('A-Z'),
+        title: Text(_alphabet.latter + " is for ..."),
       ),
       body: SafeArea(
         child: Container(
@@ -101,15 +101,22 @@ _bannerAd = createBannerAd() .. load() ..show();
                 delegate: SliverChildBuilderDelegate(
                   (BuildContext context, int index) {
                     return GestureDetector(
-                      onTap: (){
-                        // _interstitialAd = createInterstitialAd() .. load() .. show();
+                      onTap: () {
+                        _interstitialAd = createInterstitialAd()
+                          ..load()
+                          ..show();
                         // navigate to next screen
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => DetailScreen(_words[index])));
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    DetailScreen(_alphabet.words[index])));
                       },
-                      child: CardItems(index,_words[index].word, _words[index].picture),
+                      child: CardItems(index, _alphabet.words[index].word,
+                          _alphabet.words[index].picture),
                     );
                   },
-                  childCount: _words.length,
+                  childCount: _alphabet.words.length,
                 ),
               ),
             ],
@@ -123,42 +130,102 @@ _bannerAd = createBannerAd() .. load() ..show();
 
 // class CardItems extends StatelessWidget {
 //   final int index;
-//   final String item;
-//   CardItems(this.index,this.item);
+//   final String pic;
+//   final String word;
+//   CardItems(this.index,this.word, this.pic);
 
 //   @override
 //   Widget build(BuildContext context) {
 //     return Container(
-//       alignment: Alignment.center,
-//       color: Colors.teal[100 * (index % 9)],
-//       child: Text(item,style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
+//       decoration: BoxDecoration(
+//         borderRadius: BorderRadius.all(Radius.circular(10)),
+//         border: Border.all(color: Colors.black12)
+//       ),
+//       // alignment: Alignment.center,
+
+//       child: Hero(
+//         transitionOnUserGestures: true,
+//         tag: '$word',
+//         child: ClipRRect(
+//           borderRadius: new BorderRadius.circular(10),
+//           child: FadeInImage.assetNetwork(
+//             placeholder: 'images/loading.gif',
+//             image: pic,
+//             fit: BoxFit.fill,
+//           ),
+//         )
+//       ),
 //     );
 //   }
 // }
+
 class CardItems extends StatelessWidget {
   final int index;
   final String pic;
   final String word;
-  CardItems(this.index,this.word, this.pic);
+  CardItems(this.index, this.word, this.pic);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      alignment: Alignment.center,
-      color: Colors.teal[100 * (index % 9)],
+      decoration: BoxDecoration(
+          borderRadius: BorderRadius.all(Radius.circular(10)),
+          border: Border.all(color: Colors.black12)),
+      // alignment: Alignment.center,
+
       child: Hero(
-        transitionOnUserGestures: true,
-        tag: '$word',
-        child: Image.network(pic)
-        // Image(
-        //         image: AssetImage('images/appleTree.jpg'),
-        //         fit: BoxFit.fill,
-        //       ),
-      ),
-      // child: Text(
-      //   item,
-      //   style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-      // ),
+          transitionOnUserGestures: true,
+          tag: '$word',
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: <Widget>[
+              Expanded(
+                child: ClipRRect(
+                  borderRadius: new BorderRadius.only(
+                      topLeft: Radius.circular(10),
+                      topRight: Radius.circular(10)),
+                  child: FadeInImage.assetNetwork(
+                    placeholder: 'images/loading.gif',
+                    image: pic,
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+              // SizedBox(height: 2,),
+              Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.only(
+                      bottomLeft: Radius.circular(10),
+                      bottomRight: Radius.circular(10)),
+                  gradient: LinearGradient(
+                    begin: Alignment.centerLeft,
+                    end: Alignment.centerRight,
+                    colors: <Color>[
+                      Colors.blue,
+                      Colors.white,
+                      // Colors.black.withAlpha(0),
+                      // Colors.black12,
+                      // Colors.black45
+                    ],
+                  ),
+                ),
+                padding: EdgeInsets.only(left: 10, top: 1),
+                height: 25,
+                child: Text(word,
+                    style: TextStyle(color: Colors.white, fontSize: 18.0)),
+              ),
+            ],
+          )
+          // ClipRRect(
+          //   borderRadius: new BorderRadius.circular(10),
+          //   child: FadeInImage.assetNetwork(
+          //     placeholder: 'images/loading.gif',
+          //     image: pic,
+          //     fit: BoxFit.fill,
+          //   ),
+          // )
+          ),
     );
   }
 }
