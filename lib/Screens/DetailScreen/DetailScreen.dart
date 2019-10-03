@@ -58,7 +58,7 @@ class _DetailScreenState extends State<DetailScreen> {
       adUnitId: Platform.isAndroid
           ? 'ca-app-pub-3568261915655391/8470243819'
           : 'ca-app-pub-3568261915655391/3008542880',
-      size: AdSize.smartBanner, //AdSize.smartBanner
+      size: AdSize.mediumRectangle, //AdSize.smartBanner
       targetingInfo: targetingInfo,
       listener: (MobileAdEvent event) {
         print("BannerAd event is $event");
@@ -137,6 +137,7 @@ class _DetailScreenState extends State<DetailScreen> {
   void dispose() {
     super.dispose();
     _bannerAd?.dispose();
+
     flutterTts.stop();
   }
 
@@ -165,7 +166,8 @@ class _DetailScreenState extends State<DetailScreen> {
                     tag: _word.word,
                     child: Image.network(_word.picture))),
             SizedBox(height: 15),
-            Container(
+            Expanded(
+              child: Container(
               padding: EdgeInsets.symmetric(horizontal: 16),
               height: MediaQuery.of(context).size.height * 0.12,
               child: Column(
@@ -178,11 +180,14 @@ class _DetailScreenState extends State<DetailScreen> {
                   ),
                   SizedBox(height: 10),
                   Wrap(
-                    children: <Widget>[Text(_word.desc)],
-                  )
+                    children: <Widget>[Text(_word.desc,style: TextStyle(fontSize: 16))],
+                  ),
+                  
                 ],
               ),
             ),
+            ),
+            
             // Expanded(
             //   child:
             // ),

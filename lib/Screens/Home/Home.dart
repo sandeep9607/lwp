@@ -3,6 +3,8 @@ import 'package:lwp/Screens/SecondScreen/SecondScreen.dart';
 // import 'package:lwp/Screens/Common/fancy_fab.dart';
 import 'package:lwp/Model/WordModel.dart';
 import 'package:lwp/Services/Services.dart';
+import 'package:share/share.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -21,6 +23,53 @@ class _HomeState extends State<Home> {
       _count = _wordModel.length;
     });
   }
+void _showDialog() {
+    showDialog(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: Text('Enjoying lwp app? '),
+            content: Container(
+              height: 120,
+              child:
+              Column(
+                children: <Widget>[
+                  Image.asset('images/rating.jpg'),
+                  Center(child: Text('Rate us 5 star which help other to find it useful.Thanks!'),)
+                ],
+              )
+               
+            ),
+            actions: <Widget>[
+              FlatButton(
+                  onPressed: () {
+                   _dismissDialog();
+                  },
+                  child: Text('NO THANKS', style: TextStyle(color: Colors.black45),)),
+              FlatButton(
+                onPressed: () {
+                  print('HelloWorld!');
+                  // _dismissDialog();
+                  launch("https://play.google.com/store/apps/details?id=com.sanchi.lwp");
+                },
+                child: Text('5 STARTS'),
+              )
+            ],
+          );
+        });
+  }
+  _dismissDialog() {
+    Navigator.pop(context);
+}
+
+  _launchURL(String url) async {
+
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
 
   @override
   void initState() {
@@ -33,6 +82,66 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Alphabets'),
+      ),
+      drawer: Drawer(
+        child: ListView(
+          padding: const EdgeInsets.all(0.0),
+          children: <Widget>[
+            Container(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.centerLeft,
+                    end: Alignment.centerRight,
+                    colors: <Color>[
+                      Colors.blue,
+                      Colors.white,
+                    ],
+                  ),
+                ),
+                height: 200,
+                // color: Colors.blue,
+                child: Center(
+                  child: Image.asset(
+                    'images/logo.png',
+                    height: 100,
+                    width: 100,
+                  ),
+                )),
+            ListTile(
+              title: Text("Home"),
+              leading: Icon(Icons.home),
+              onTap: (){
+                Navigator.of(context).pop();
+              },
+            ),
+            ListTile(
+              title: Text("Rate App"),
+              leading: Icon(Icons.star),
+              onTap: (){
+                _showDialog();
+              },
+            ),
+            ListTile(
+              title: Text("Share App"),
+              leading: Icon(Icons.share),
+              onTap: () {
+                Share.share('check out my website https://example.com');
+              },
+            ),
+            ListTile(
+              title: Text("Feedback"),
+              leading: Icon(Icons.feedback),
+              onTap: (){ _launchURL('mailto:yashmaurya76@gmail.com?subject=LWP Feedback');
+              },
+            ),
+            ListTile(
+              title: Text("Privacy Policy"),
+              leading: Icon(Icons.insert_drive_file),
+              onTap: (){ _launchURL('http://app.passkardo.com/lwp/privacy-policy/index.htm');
+              }
+            ),
+          ],
+        ),
       ),
       body: SafeArea(
         child: Container(

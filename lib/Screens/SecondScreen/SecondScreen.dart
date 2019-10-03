@@ -5,6 +5,8 @@ import 'dart:io';
 import 'package:firebase_admob/firebase_admob.dart';
 import 'package:lwp/Model/WordModel.dart';
 
+var adCount = 0;
+
 class SecondScreen extends StatefulWidget {
   final WordModel _alphabet;
   SecondScreen(this._alphabet);
@@ -102,9 +104,17 @@ class _SecondScreenState extends State<SecondScreen> {
                   (BuildContext context, int index) {
                     return GestureDetector(
                       onTap: () {
-                        _interstitialAd = createInterstitialAd()
+                        print("adCount: $adCount");
+                        if(adCount == 3){
+                          _bannerAd?.dispose();
+                          _interstitialAd = createInterstitialAd()
                           ..load()
                           ..show();
+                          adCount = 0;
+                        }else{
+                          adCount += 1; 
+                        }
+
                         // navigate to next screen
                         Navigator.push(
                             context,
@@ -127,37 +137,6 @@ class _SecondScreenState extends State<SecondScreen> {
     );
   }
 }
-
-// class CardItems extends StatelessWidget {
-//   final int index;
-//   final String pic;
-//   final String word;
-//   CardItems(this.index,this.word, this.pic);
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Container(
-//       decoration: BoxDecoration(
-//         borderRadius: BorderRadius.all(Radius.circular(10)),
-//         border: Border.all(color: Colors.black12)
-//       ),
-//       // alignment: Alignment.center,
-
-//       child: Hero(
-//         transitionOnUserGestures: true,
-//         tag: '$word',
-//         child: ClipRRect(
-//           borderRadius: new BorderRadius.circular(10),
-//           child: FadeInImage.assetNetwork(
-//             placeholder: 'images/loading.gif',
-//             image: pic,
-//             fit: BoxFit.fill,
-//           ),
-//         )
-//       ),
-//     );
-//   }
-// }
 
 class CardItems extends StatelessWidget {
   final int index;

@@ -354,30 +354,30 @@
 		"words": [
 			{
 				"word": "Hat",
-				"desc": "",
+				"desc": "A hat is a head covering which is worn for various reasons, including protection against weather conditions, ceremonial reasons such as university graduation, religious reasons, safety, or as a fashion accessory.",
 				"picture": "https://cdn.pixabay.com/photo/2013/07/13/10/41/hat-157581_960_720.png"
 			},
 			{
 				"word": "Hen",
-				"desc": "",
+				"desc": "The chicken is a type of domesticated fowl, a subspecies of the red junglefowl.",
 				"picture": "https://images.unsplash.com/photo-1473506488149-4b23e57b87c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},{
 				"word": "Hand",
-				"desc": "",
+				"desc": "A hand is the part of the body at the end of an arm. Most humans have two hands. Each hand usually has four fingers and a thumb.",
 				"picture": "https://images.unsplash.com/photo-1553109349-c7dd33e542c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},
 			{
 				"word": "Heart",
-				"desc": "",
+				"desc": "The heart is a muscular organ in most animals, which pumps blood through the blood vessels of the circulatory system.",
 				"picture": "https://images.unsplash.com/photo-1555972734-22cb4b846a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
 			},{
 				"word": "Happy",
-				"desc": "",
+				"desc": "Feeling or showing pleasure or contentment.",
 				"picture": "https://images.lifealth.com/uploads/2018/03/commitments-to-make-if-you-want-to-be-happy.jpg"
 			},
 			{
 				"word": "House",
-				"desc": "",
+				"desc": "A house is a building that functions as a home. They can range from simple dwellings such as rudimentary huts of nomadic tribes and the improvised shacks in shantytowns to complex, fixed structures of wood, brick, concrete or other materials containing plumbing, ventilation, and electrical systems.",
 				"picture": "https://images.unsplash.com/photo-1434082033009-b81d41d32e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
 			},{
 				"word": "Hill",
@@ -390,12 +390,12 @@
 				"picture": "https://images.unsplash.com/photo-1534251369789-5067c8b8602a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
 			},{
 				"word": "Hog",
-				"desc": "",
+				"desc": "The domestic pig, often called swine, hog, or simply pig when there is no need to distinguish it from other pigs, is a domesticated large, even-toed ungulate.",
 				"picture": "https://images.unsplash.com/photo-1562862329-bb8ce7c2b66c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
 			},
 			{
 				"word": "Horse",
-				"desc": "",
+				"desc": "The horse (Equus ferus caballus)[2][3] is one of two extant subspecies of Equus ferus. It is an odd-toed ungulate mammal belonging to the taxonomic family Equidae.",
 				"picture": "https://images.unsplash.com/photo-1450052590821-8bf91254a353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
 			}
 		]
@@ -558,7 +558,7 @@
 		"words": [
 			{
 				"word": "Leg",
-				"desc": "",
+				"desc": "The human leg, in the general word sense, is the entire lower limb of the human body, including the foot, thigh and even the hip or gluteal region.",
 				"picture": "https://images.unsplash.com/photo-1537094082840-dcbbfa99385f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
 			},
 			{
@@ -590,7 +590,7 @@
 			},
 			{
 				"word": "Lamb",
-				"desc": "",
+				"desc": "lamb (plural lambs or (dialectal) lamber or (dialectal) lambren) A young sheep. ",
 				"picture": "https://images.unsplash.com/photo-1487541711790-6d41c9d873dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
 			},{
 				"word": "Ladder",
@@ -610,7 +610,7 @@
 		"words": [
 			{
 				"word": "Man",
-				"desc": "",
+				"desc": "Human being, person, man",
 				"picture": "https://www.clipartwiki.com/clipimg/detail/78-784534_download-free-png-happy-man-cartoon-png.png"
 			},
 			{
@@ -628,7 +628,7 @@
 				"picture": "https://images.unsplash.com/photo-1499578124509-1611b77778c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},{
 				"word": "Mom",
-				"desc": "",
+				"desc": "Mother",
 				"picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6UAZq0AGBe5hyZLJrxP8VHktrOCs13F6yAkySEvRK09qQ6QUQAg"
 			},
 			{
@@ -714,25 +714,25 @@
 		"words": [
 			{
 				"word": "One",
-				"desc": "",
+				"desc": "Its odd number",
 				"picture": "https://cdn.pixabay.com/photo/2018/03/08/08/18/pay-3208060_960_720.png"
 			},
 			{
 				"word": "Ox",
-				"desc": "",
+				"desc": "An ox (plural oxen), also known as a bullock in Australia and India, is a bovine trained as a draft animal.",
 				"picture": "https://images.unsplash.com/photo-1562360742-318972306207?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},{
 				"word": "Oar",
-				"desc": "",
+				"desc": "An oar is an implement used for water-borne propulsion. Oars have a flat blade at one end. Rowers grasp the oar at the other end.",
 				"picture": "https://images.unsplash.com/photo-1498618755061-8d9218526375?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},
 			{
 				"word": "Owl",
-				"desc": "",
+				"desc": "Owls are birds from the order Strigiformes, which includes about 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight.",
 				"picture": "https://images.unsplash.com/photo-1543549790-8b5f4a028cfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},{
 				"word": "Otter",
-				"desc": "",
+				"desc": "Otters are carnivorous mammals in the subfamily Lutrinae. The 13 extant otter species are all semiaquatic, aquatic or marine, with diets based on fish and invertebrates.",
 				"picture": "https://images.unsplash.com/photo-1530701594694-da628544d738?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},
 			{
@@ -741,12 +741,12 @@
 				"picture": "https://image.freepik.com/free-photo/fabric-textured-backdrop-frame_53876-90113.jpg"
 			},{
 				"word": "Orange",
-				"desc": "",
+				"desc": "The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae, native to China.",
 				"picture": "https://images.unsplash.com/photo-1547514701-42782101795e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
 			},
 			{
 				"word": "Orca",
-				"desc": "",
+				"desc": "The killer whale or orca is a toothed whale belonging to the oceanic dolphin family, of which it is the largest member.",
 				"picture": "https://cdn.pixabay.com/photo/2017/01/01/20/12/killer-whale-1945421__340.jpg"
 			},{
 				"word": "Onion",
@@ -755,7 +755,7 @@
 			},
 			{
 				"word": "Ostrich",
-				"desc": "",
+				"desc": "The common ostrich, or simply ostrich, is a species of large flightless bird native to certain large areas of Africa.",
 				"picture": "https://images.unsplash.com/photo-1534995191007-2a6388f50871?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			}
 		]
@@ -771,11 +771,11 @@
 			},
 			{
 				"word": "Pie",
-				"desc": "",
+				"desc": "A pie is a baked dish which is usually made of a pastry dough casing that covers or completely contains a filling of various sweet or savoury ingredients.",
 				"picture": "https://images.unsplash.com/photo-1554298128-c916518a4b34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},{
 				"word": "Pig",
-				"desc": "",
+				"desc": "A pig is any of the animals in the genus Sus, within the even-toed ungulate family Suidae.",
 				"picture": "https://images.unsplash.com/photo-1516467508483-a7212febe31a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},
 			{
@@ -789,7 +789,7 @@
 			},
 			{
 				"word": "Peas",
-				"desc": "",
+				"desc": "The pea is most commonly the small spherical seed or the seed-pod of the pod fruit Pisum sativum.",
 				"picture": "https://images.unsplash.com/photo-1553460165-3628ccff14d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},{
 				"word": "Pizza",
@@ -798,7 +798,7 @@
 			},
 			{
 				"word": "Penny",
-				"desc": "",
+				"desc": "A penny is a coin or a unit of currency in various countries. Borrowed from the Carolingian denarius, it is usually the smallest denomination within a currency system.",
 				"picture": "https://images.unsplash.com/photo-1542222024-c39e2281f121?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},{
 				"word": "Pencil",
@@ -807,7 +807,7 @@
 			},
 			{
 				"word": "plane",
-				"desc": "",
+				"desc": "An airplane or aeroplane is a powered, fixed-wing aircraft that is propelled forward by thrust from a jet engine, propeller or rocket engine.",
 				"picture": "https://images.unsplash.com/photo-1512289984044-071903207f5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			}
 		]
@@ -870,12 +870,12 @@
 		"words": [
 			{
 				"word": "Rose",
-				"desc": "",
+				"desc": "A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over three hundred species and thousands of cultivars. ",
 				"picture": "https://images.unsplash.com/photo-1521498080216-7f241eac45d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},
 			{
 				"word": "Rat",
-				"desc": "",
+				"desc": "Rats are various medium-sized, long-tailed rodents. Species of rats are found throughout the order Rodentia, but stereotypical rats are found in the genus Rattus.",
 				"picture": "https://www.freepngimg.com/thumb/rat/3-2-rat-free-png-image.png"
 			},{
 				"word": "Rain",
@@ -888,16 +888,16 @@
 				"picture": "https://images.unsplash.com/photo-1538491247542-5da27794bc65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},{
 				"word": "Rabbit",
-				"desc": "",
+				"desc": "Rabbits are small mammals in the family Leporidae of the order Lagomorpha.",
 				"picture": "https://images.unsplash.com/photo-1555881450-2b25f8fae15d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},
 			{
 				"word": "Rock",
-				"desc": "",
+				"desc": "A rock is any naturally occurring solid mass or aggregate of minerals or mineraloid matter.",
 				"picture": "https://images.unsplash.com/photo-1515952094266-696ed54f41bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
 			},{
 				"word": "Ring",
-				"desc": "",
+				"desc": "A ring is a round band, usually of metal, worn as ornamental jewellery.",
 				"picture": "https://images.unsplash.com/photo-1561812350-932aed735105?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},
 			{
@@ -1186,12 +1186,12 @@
 		"words": [
 			{
 				"word": "X-Mas",
-				"desc": "",
+				"desc": "Christmas is an annual festival commemorating the birth of Jesus Christ, observed primarily on December 25 as a religious and cultural celebration among billions of people around the world.",
 				"picture": "https://cdn.pixabay.com/photo/2013/07/12/13/50/christmas-tree-147385_960_720.png"
 			},
 			{
 				"word": "X-ray",
-				"desc": "",
+				"desc": "X-rays make up X-radiation, a form of high-energy electromagnetic radiation.",
 				"picture": "https://www.radiologyinfo.org/gallery-items/images/bone-xray-hands.jpg"
 			},{
 				"word": "Xenops",
@@ -1200,7 +1200,7 @@
 			},
 			{
 				"word": "Xylophone",
-				"desc": "",
+				"desc": "The xylophone (from the Greek word) is a musical instrument in the percussion family that consists of wooden bars struck by mallets.",
 				"picture": "https://cdn.pixabay.com/photo/2012/04/13/12/09/xylophone-32128__340.png"
 			},{
 				"word": "Xerox",
@@ -1267,16 +1267,16 @@
 		"words": [
 			{
 				"word": "Zoo",
-				"desc": "",
+				"desc": "A 'zoo' is a facility in which all animals are housed within enclosures, displayed to the public, and in which they may also breed.",
 				"picture": "https://images.unsplash.com/photo-1565801498671-d4009efae6e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
 			},
 			{
 				"word": "Zebra",
-				"desc": "",
+				"desc": "Zebras are several species of African equids united by their distinctive black-and-white striped coats.",
 				"picture": "https://cdn.pixabay.com/photo/2011/09/22/01/08/zebra-9928_960_720.jpg"
 			},{
 				"word": "Zipper",
-				"desc": "",
+				"desc": "A zipper, zip, fly, dingy, or zip fastener, formerly known as a clasp locker, is a commonly used device for binding the edges of an opening of fabric or other flexible material, such as on a garment or a bag.",
 				"picture": "https://cdn.pixabay.com/photo/2013/07/13/11/57/zip-159043_960_720.png"
 			},
 			{
@@ -1285,12 +1285,12 @@
 				"picture": "https://cdn.pixabay.com/photo/2012/04/23/15/08/zero-38418_960_720.png"
 			},{
 				"word": "Zinnia",
-				"desc": "",
+				"desc": "Zinnia is a genus of plants of the sunflower tribe within the daisy family.",
 				"picture": "https://cdn.pixabay.com/photo/2014/08/08/18/17/zinnia-413564_960_720.jpg"
 			},
 			{
 				"word": "Zodiac",
-				"desc": "",
+				"desc": "The zodiac is an area of the sky that extends approximately 8° north or south of the ecliptic, the apparent path of the Sun across the celestial sphere over the course of the year.",
 				"picture": "https://personalitybuzz.com/wp-content/uploads/2016/11/The-Negative-Side-of-Your-Zodiac.jpg"
 			},{
 				"word": "Zigzag",
@@ -1299,7 +1299,7 @@
 			},
 			{
 				"word": "Zither",
-				"desc": "",
+				"desc": "Zither is a class of stringed instruments. The word Zither is a German rendering of the Greek word cithara, from which the modern word 'guitar' also derives.",
 				"picture": "https://cdn.pixabay.com/photo/2019/07/21/12/17/zither-4352644_960_720.jpg"
 			},{
 				"word": "Zeppelin",
@@ -1308,7 +1308,7 @@
 			},
 			{
 				"word": "Zucchini",
-				"desc": "",
+				"desc": "The zucchini or courgette is a summer squash, of Mesoamerican origin, which can reach nearly 1 m in length, but is usually harvested when still immature at about 15 to 25 cm. A zucchini is a thin-skinned cultivar of what in Britain and Ireland is referred to as a marrow.",
 				"picture": "https://cdn.pixabay.com/photo/2018/10/21/09/57/zucchini-3762535_960_720.jpg"
 			}
 		]
