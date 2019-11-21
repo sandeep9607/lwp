@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:lwp/Screens/SecondScreen/SecondScreen.dart';
 // import 'package:lwp/Screens/Common/fancy_fab.dart';
@@ -23,34 +24,39 @@ class _HomeState extends State<Home> {
       _count = _wordModel.length;
     });
   }
-void _showDialog() {
+
+  void _showDialog() {
     showDialog(
         context: context,
         builder: (context) {
           return AlertDialog(
             title: Text('Enjoying lwp app? '),
             content: Container(
-              height: 120,
-              child:
-              Column(
-                children: <Widget>[
-                  Image.asset('images/rating.jpg'),
-                  Center(child: Text('Rate us 5 star which help other to find it useful.Thanks!'),)
-                ],
-              )
-               
-            ),
+                height: 120,
+                child: Column(
+                  children: <Widget>[
+                    Image.asset('images/rating.jpg'),
+                    Center(
+                      child: Text(
+                          'Rate us 5 star which help other to find it useful.Thanks!'),
+                    )
+                  ],
+                )),
             actions: <Widget>[
               FlatButton(
                   onPressed: () {
-                   _dismissDialog();
+                    _dismissDialog();
                   },
-                  child: Text('NO THANKS', style: TextStyle(color: Colors.black45),)),
+                  child: Text(
+                    'NO THANKS',
+                    style: TextStyle(color: Colors.black45),
+                  )),
               FlatButton(
                 onPressed: () {
                   print('HelloWorld!');
                   // _dismissDialog();
-                  launch("https://play.google.com/store/apps/details?id=com.sanchi.lwp");
+                  launch(
+                      "https://play.google.com/store/apps/details?id=com.sanchi.lwp");
                 },
                 child: Text('5 STARTS'),
               )
@@ -58,18 +64,18 @@ void _showDialog() {
           );
         });
   }
+
   _dismissDialog() {
     Navigator.pop(context);
-}
+  }
 
   _launchURL(String url) async {
-
-  if (await canLaunch(url)) {
-    await launch(url);
-  } else {
-    throw 'Could not launch $url';
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
   }
-}
 
   @override
   void initState() {
@@ -110,14 +116,14 @@ void _showDialog() {
             ListTile(
               title: Text("Home"),
               leading: Icon(Icons.home),
-              onTap: (){
+              onTap: () {
                 Navigator.of(context).pop();
               },
             ),
             ListTile(
               title: Text("Rate App"),
               leading: Icon(Icons.star),
-              onTap: (){
+              onTap: () {
                 _showDialog();
               },
             ),
@@ -131,15 +137,18 @@ void _showDialog() {
             ListTile(
               title: Text("Feedback"),
               leading: Icon(Icons.feedback),
-              onTap: (){ _launchURL('mailto:yashmaurya76@gmail.com?subject=LWP Feedback');
+              onTap: () {
+                _launchURL(
+                    'mailto:yashmaurya76@gmail.com?subject=LWP Feedback');
               },
             ),
             ListTile(
-              title: Text("Privacy Policy"),
-              leading: Icon(Icons.insert_drive_file),
-              onTap: (){ _launchURL('http://app.passkardo.com/lwp/privacy-policy/index.htm');
-              }
-            ),
+                title: Text("Privacy Policy"),
+                leading: Icon(Icons.insert_drive_file),
+                onTap: () {
+                  _launchURL(
+                      'http://app.passkardo.com/lwp/privacy-policy/index.htm');
+                }),
           ],
         ),
       ),
@@ -193,10 +202,11 @@ class CardItems extends StatelessWidget {
           border: Border.all(color: Colors.black12)),
       alignment: Alignment.center,
       // color: Colors.teal[100 * (index % 9)],
-      child: FadeInImage.assetNetwork(
-        placeholder: 'images/loading.gif',
-        image: image,
-        fit: BoxFit.fill,
+      child: CachedNetworkImage(
+        imageUrl: image,
+        placeholder: (context, url) =>
+            Image.asset('images/loading.gif'), //CircularProgressIndicator(),
+        errorWidget: (context, url, error) => Icon(Icons.error),
       ),
     );
   }

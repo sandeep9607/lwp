@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:firebase_admob/firebase_admob.dart';
 import 'package:flutter/material.dart';
 // import 'package:lwp/Screens/Common/fancy_fab.dart';
@@ -162,32 +163,40 @@ class _DetailScreenState extends State<DetailScreen> {
                 height: MediaQuery.of(context).size.height * 0.30,
                 width: MediaQuery.of(context).size.width,
                 child: Hero(
-                    transitionOnUserGestures: true,
-                    tag: _word.word,
-                    child: Image.network(_word.picture))),
+                  transitionOnUserGestures: true,
+                  tag: _word.word,
+                  child: CachedNetworkImage(
+                    imageUrl: _word.picture,
+                    placeholder: (context, url) => Image.asset(
+                        'images/loading.gif'), //CircularProgressIndicator(),
+                    errorWidget: (context, url, error) => Icon(Icons.error),
+                  ),
+                )),
             SizedBox(height: 15),
             Expanded(
               child: Container(
-              padding: EdgeInsets.symmetric(horizontal: 16),
-              height: MediaQuery.of(context).size.height * 0.12,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: <Widget>[
-                  Text(
-                    _word.word,
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
-                  ),
-                  SizedBox(height: 10),
-                  Wrap(
-                    children: <Widget>[Text(_word.desc,style: TextStyle(fontSize: 16))],
-                  ),
-                  
-                ],
+                padding: EdgeInsets.symmetric(horizontal: 16),
+                height: MediaQuery.of(context).size.height * 0.12,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: <Widget>[
+                    Text(
+                      _word.word,
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+                    ),
+                    SizedBox(height: 10),
+                    Wrap(
+                      children: <Widget>[
+                        Text(_word.desc, style: TextStyle(fontSize: 16))
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
-            ),
-            
+
             // Expanded(
             //   child:
             // ),

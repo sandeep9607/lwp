@@ -1,11 +1,10 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:lwp/Screens/DetailScreen/DetailScreen.dart';
 // import 'package:lwp/Screens/Common/fancy_fab.dart';
 import 'dart:io';
 import 'package:firebase_admob/firebase_admob.dart';
 import 'package:lwp/Model/WordModel.dart';
-
-// var adCount = 0;
 
 class SecondScreen extends StatefulWidget {
   final WordModel _alphabet;
@@ -45,6 +44,7 @@ class _SecondScreenState extends State<SecondScreen> {
           ? 'ca-app-pub-3568261915655391/8470243819' //'ca-app-pub-3940256099942544/6300978111' test interestial ad
           : 'ca-app-pub-3568261915655391/3008542880',
       //  : false,
+
       size: AdSize.smartBanner, //AdSize.smartBanner
       targetingInfo: targetingInfo,
       listener: (MobileAdEvent event) {
@@ -105,16 +105,9 @@ class _SecondScreenState extends State<SecondScreen> {
                   (BuildContext context, int index) {
                     return GestureDetector(
                       onTap: () {
-                        // print("adCount: $adCount");
-                        // if (adCount == 3) {
-                        // _bannerAd?.dispose();
                         _interstitialAd = createInterstitialAd()
                           ..load()
                           ..show();
-                        //   adCount = 0;
-                        // } else {
-                        //   adCount += 1;
-                        // }
 
                         // navigate to next screen
                         Navigator.push(
@@ -165,10 +158,11 @@ class CardItems extends StatelessWidget {
                   borderRadius: new BorderRadius.only(
                       topLeft: Radius.circular(10),
                       topRight: Radius.circular(10)),
-                  child: FadeInImage.assetNetwork(
-                    placeholder: 'images/loading.gif',
-                    image: pic,
-                    fit: BoxFit.cover,
+                  child: CachedNetworkImage(
+                    imageUrl: pic,
+                    placeholder: (context, url) => Image.asset(
+                        'images/loading.gif'), //CircularProgressIndicator(),
+                    errorWidget: (context, url, error) => Icon(Icons.error),
                   ),
                 ),
               ),
@@ -196,16 +190,7 @@ class CardItems extends StatelessWidget {
                     style: TextStyle(color: Colors.white, fontSize: 18.0)),
               ),
             ],
-          )
-          // ClipRRect(
-          //   borderRadius: new BorderRadius.circular(10),
-          //   child: FadeInImage.assetNetwork(
-          //     placeholder: 'images/loading.gif',
-          //     image: pic,
-          //     fit: BoxFit.fill,
-          //   ),
-          // )
-          ),
+          )),
     );
   }
 }
