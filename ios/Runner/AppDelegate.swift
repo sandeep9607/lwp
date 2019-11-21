@@ -9,6 +9,9 @@ import Flutter
     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?
   ) -> Bool {
     GeneratedPluginRegistrant.register(with: self)
+    let flutterViewController = FlutterSupportViewController()
+    flutterViewController.delegate = self
+    addFlutterSupportViewController(from: flutterViewController)
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 }

@@ -1,8 +1,9 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:lwp/Screens/DetailScreen/DetailScreen.dart';
 // import 'package:lwp/Screens/Common/fancy_fab.dart';
 import 'dart:io';
-import 'package:firebase_admob/firebase_admob.dart';
+// import 'package:firebase_admob/firebase_admob.dart';
 import 'package:lwp/Model/WordModel.dart';
 
 var adCount = 0;
@@ -23,64 +24,64 @@ class _SecondScreenState extends State<SecondScreen> {
       ? 'ca-app-pub-3568261915655391~9783325485'
       : 'ca-app-pub-3568261915655391~4433305191';
 
-  static final MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
-    keywords: <String>['Education', 'Learning, Picture, A-Z'],
-    contentUrl: 'https://flutter.io',
-    childDirected: true,
-    // birthday: DateTime.now(),
-    // designedForFamilies: false,
-    // gender: MobileAdGender.male, // or MobileAdGender.female, MobileAdGender.unknown
-    testDevices: <String>[], // Android emulators are considered test devices
-  );
+  // static final MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
+  //   keywords: <String>['Education', 'Learning, Picture, A-Z'],
+  //   contentUrl: 'https://flutter.io',
+  //   childDirected: true,
+  //   // birthday: DateTime.now(),
+  //   // designedForFamilies: false,
+  //   // gender: MobileAdGender.male, // or MobileAdGender.female, MobileAdGender.unknown
+  //   testDevices: <String>[], // Android emulators are considered test devices
+  // );
 
-  BannerAd _bannerAd;
-  InterstitialAd _interstitialAd;
+  // BannerAd _bannerAd;
+  // InterstitialAd _interstitialAd;
 
-  BannerAd createBannerAd() {
-    return BannerAd(
-      // Replace the testAdUnitId with an ad unit id from the AdMob dash.
-      // https://developers.google.com/admob/android/test-ads
-      // https://developers.google.com/admob/ios/test-ads
-      adUnitId: Platform.isAndroid
-          ? 'ca-app-pub-3568261915655391/8470243819' //'ca-app-pub-3940256099942544/6300978111' test interestial ad
-          : 'ca-app-pub-3568261915655391/3008542880',
-      size: AdSize.smartBanner, //AdSize.smartBanner
-      targetingInfo: targetingInfo,
-      listener: (MobileAdEvent event) {
-        print("BannerAd event is $event");
-      },
-    );
-  }
+  // BannerAd createBannerAd() {
+  //   return BannerAd(
+  //     // Replace the testAdUnitId with an ad unit id from the AdMob dash.
+  //     // https://developers.google.com/admob/android/test-ads
+  //     // https://developers.google.com/admob/ios/test-ads
+  //     adUnitId: Platform.isAndroid
+  //         ? 'ca-app-pub-3568261915655391/8470243819' //'ca-app-pub-3940256099942544/6300978111' test interestial ad
+  //         : 'ca-app-pub-3568261915655391/3008542880',
+  //     size: AdSize.smartBanner, //AdSize.smartBanner
+  //     targetingInfo: targetingInfo,
+  //     listener: (MobileAdEvent event) {
+  //       print("BannerAd event is $event");
+  //     },
+  //   );
+  // }
 
-  InterstitialAd createInterstitialAd() {
-    return InterstitialAd(
-      // Replace the testAdUnitId with an ad unit id from the AdMob dash.
-      // https://developers.google.com/admob/android/test-ads
-      // https://developers.google.com/admob/ios/test-ads
-      adUnitId: Platform.isAndroid
-          ? 'ca-app-pub-3568261915655391/7552516456' //'ca-app-pub-3940256099942544/1033173712' test ad id
-          : 'ca-app-pub-3568261915655391/2816971190',
-      targetingInfo: targetingInfo,
-      listener: (MobileAdEvent event) {
-        print("InterstitialAd event is $event");
-      },
-    );
-  }
+  // InterstitialAd createInterstitialAd() {
+  //   return InterstitialAd(
+  //     // Replace the testAdUnitId with an ad unit id from the AdMob dash.
+  //     // https://developers.google.com/admob/android/test-ads
+  //     // https://developers.google.com/admob/ios/test-ads
+  //     adUnitId: Platform.isAndroid
+  //         ? 'ca-app-pub-3568261915655391/7552516456' //'ca-app-pub-3940256099942544/1033173712' test ad id
+  //         : 'ca-app-pub-3568261915655391/2816971190',
+  //     targetingInfo: targetingInfo,
+  //     listener: (MobileAdEvent event) {
+  //       print("InterstitialAd event is $event");
+  //     },
+  //   );
+  // }
 
   @override
   void initState() {
     super.initState();
-    FirebaseAdMob.instance.initialize(appId: admobId());
-    _bannerAd = createBannerAd()
-      ..load()
-      ..show();
+    // FirebaseAdMob.instance.initialize(appId: admobId());
+    // _bannerAd = createBannerAd()
+    //   ..load()
+    //   ..show();
   }
 
   @override
   void dispose() {
     super.dispose();
-    _bannerAd?.dispose();
-    _interstitialAd?.dispose();
+    // _bannerAd?.dispose();
+    // _interstitialAd?.dispose();
   }
 
   @override
@@ -105,15 +106,15 @@ class _SecondScreenState extends State<SecondScreen> {
                     return GestureDetector(
                       onTap: () {
                         print("adCount: $adCount");
-                        if(adCount == 3){
-                          _bannerAd?.dispose();
-                          _interstitialAd = createInterstitialAd()
-                          ..load()
-                          ..show();
-                          adCount = 0;
-                        }else{
-                          adCount += 1; 
-                        }
+                        // if(adCount == 3){
+                        //   _bannerAd?.dispose();
+                        //   _interstitialAd = createInterstitialAd()
+                        //   ..load()
+                        //   ..show();
+                        //   adCount = 0;
+                        // }else{
+                        //   adCount += 1;
+                        // }
 
                         // navigate to next screen
                         Navigator.push(
@@ -164,10 +165,11 @@ class CardItems extends StatelessWidget {
                   borderRadius: new BorderRadius.only(
                       topLeft: Radius.circular(10),
                       topRight: Radius.circular(10)),
-                  child: FadeInImage.assetNetwork(
-                    placeholder: 'images/loading.gif',
-                    image: pic,
-                    fit: BoxFit.cover,
+                  child: CachedNetworkImage(
+                    imageUrl: pic,
+                    placeholder: (context, url) => Image.asset(
+                        'images/loading.gif'), //CircularProgressIndicator(),
+                    errorWidget: (context, url, error) => Icon(Icons.error),
                   ),
                 ),
               ),

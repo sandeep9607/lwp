@@ -78,7 +78,8 @@
 				"word": "Boy",
 				"desc": "A boy is a young male human, usually a child or adolescent.",
 				"picture": "https://image.freepik.com/free-vector/cute-little-boy-cartoon_43633-2781.jpg"
-			},{
+			},
+			{
 				"word": "Baloon",
 				"desc": "A balloon is a flexible bag that can be inflated with a gas, such as helium, hydrogen, nitrous oxide, oxygen, air. For special tasks, balloons can be filled with smoke, liquid water, granular media, or light sources.",
 				"picture": "https://www.click4balloons.co.uk/ekmps/shops/click4/images/qualatex-11-inch-balloons-dark-blue-11-balloons-standard-100pcs-26375-p.jpg"
@@ -113,7 +114,8 @@
 				"word": "Cake",
 				"desc": "Cake is a form of sweet food made from flour, sugar, and other ingredients, that is usually baked.",
 				"picture": "https://dumielauxepices.net/sites/default/files/drawn-cake-cack-518730-9916614.jpg"
-			},			{
+			},
+			{
 				"word": "Circle",
 				"desc": "A circle is a simple closed shape. It is the set of all points in a plane that are at a given distance from a given point, the centre; equivalently it is the curve traced out by a point that moves in a plane so that its distance from a given point is constant.",
 				"picture": "https://breakingwell.files.wordpress.com/2018/05/circle.jpg"
@@ -147,7 +149,7 @@
 	},
 	{
 		"latter": "D",
-		"image": "https://cdn.pixabay.com/photo/2016/09/12/09/52/abc-1663387__340.png", 
+		"image": "https://cdn.pixabay.com/photo/2016/09/12/09/52/abc-1663387__340.png",
 		"words": [
 			{
 				"word": "Dog",
@@ -163,7 +165,8 @@
 				"word": "Donkey",
 				"desc": "",
 				"picture": "https://smedia2.intoday.in/btmt/images/stories/pakistan-to-sell-donkeys-to-china-660_020419101133.jpg"
-			},{
+			},
+			{
 				"word": "Doll",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2019/03/17/19/58/doll-4061815_960_720.jpg"
@@ -177,15 +180,18 @@
 				"word": "Dice",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2016/03/31/19/19/dice-1294902_960_720.png"
-			},{
+			},
+			{
 				"word": "Door",
 				"desc": "",
 				"picture": "https://airjordanenligen2015.com/images/door-clipart-vector.jpg"
-			},{
+			},
+			{
 				"word": "Dove",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2017/04/05/16/56/white-dove-2205639_960_720.jpg"
-			},{
+			},
+			{
 				"word": "Deer",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2015/07/28/19/18/hirsch-864786_960_720.jpg"
@@ -205,7 +211,8 @@
 				"word": "Ear",
 				"desc": "",
 				"picture": "https://www.cosmicears.com/wp-content/uploads/2015/05/external-ear-with-description.jpg"
-			},{
+			},
+			{
 				"word": "Eat",
 				"desc": "",
 				"picture": "https://i2-prod.bristolpost.co.uk/incoming/article216490.ece/ALTERNATES/s615/1_kid-eating-pizza.jpg"
@@ -214,7 +221,8 @@
 				"word": "Eleven",
 				"desc": "",
 				"picture": "https://apherald-nkywabj.stackpathdns.com/ImageStore/images/astrology/astrology_subhashitam/lifepathnumbereleven-647x450.jpg"
-			},{
+			},
+			{
 				"word": "Eagle",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1557401622-cfc0aa5d146c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
@@ -223,7 +231,8 @@
 				"word": "Egg",
 				"desc": "",
 				"picture": "https://atlas-content-cdn.pixelsquid.com/stock-images/white-egg-v1QqDa4-600.jpg"
-			},{
+			},
+			{
 				"word": "Eight",
 				"desc": "",
 				"picture": "https://images-na.ssl-images-amazon.com/images/I/31pM335JPtL._SX450_.jpg"
@@ -232,7 +241,8 @@
 				"word": "Elephant",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1551356277-dbb545a2d493?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Elk",
 				"desc": "",
 				"picture": "https://gohunt-assets-us-west-2.s3.amazonaws.com/media/PA-Elk-Top.jpg"
@@ -257,7 +267,8 @@
 				"word": "Fly",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1546056053-4a41be74a736?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Fan",
 				"desc": "",
 				"picture": "https://shop.bajajelectricals.com/Images/Catalogue/Product/ExtraLarge/250275_70115.jpg"
@@ -266,7 +277,8 @@
 				"word": "Four",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2018/03/08/08/20/pay-3208068_960_720.png"
-			},{
+			},
+			{
 				"word": "Feet",
 				"desc": "",
 				"picture": "https://ichef.bbci.co.uk/images/ic/624xn/p068vmzy.jpg"
@@ -275,7 +287,8 @@
 				"word": "Fork",
 				"desc": "",
 				"picture": "https://vignette.wikia.nocookie.net/tlaststand/images/a/a2/Fork_002.jpg/revision/latest?cb=20150118051235"
-			},{
+			},
+			{
 				"word": "Frog",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2015/06/03/14/16/hyla-meridionalis-796466_960_720.jpg"
@@ -284,7 +297,8 @@
 				"word": "Five",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2018/03/08/08/18/pay-3208062_960_720.png"
-			},{
+			},
+			{
 				"word": "Fox",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2016/11/29/03/28/animal-1867062_960_720.jpg"
@@ -309,7 +323,8 @@
 				"word": "Goat",
 				"desc": "",
 				"picture": "https://5.imimg.com/data5/PG/YS/MY-27909549/boer-female-goat-500x500.jpg"
-			},{
+			},
+			{
 				"word": "Gem",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png"
@@ -318,7 +333,8 @@
 				"word": "Gift",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2014/11/27/22/43/gift-548285_960_720.jpg"
-			},{
+			},
+			{
 				"word": "Glove",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2016/03/20/16/40/gloves-1268930_960_720.jpg"
@@ -327,7 +343,8 @@
 				"word": "Globe",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2018/05/18/16/41/globe-3411506_960_720.jpg"
-			},{
+			},
+			{
 				"word": "Gorila",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2015/12/21/13/05/chimpanzee-1102600_960_720.jpg"
@@ -336,7 +353,8 @@
 				"word": "goose",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1553108232-aced2ba5ffc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Glasses",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1483412468200-72182dbbc544?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
@@ -354,32 +372,35 @@
 		"words": [
 			{
 				"word": "Hat",
-				"desc": "",
+				"desc": "A hat is a head covering which is worn for various reasons, including protection against weather conditions, ceremonial reasons such as university graduation, religious reasons, safety, or as a fashion accessory.",
 				"picture": "https://cdn.pixabay.com/photo/2013/07/13/10/41/hat-157581_960_720.png"
 			},
 			{
 				"word": "Hen",
-				"desc": "",
+				"desc": "The chicken is a type of domesticated fowl, a subspecies of the red junglefowl.",
 				"picture": "https://images.unsplash.com/photo-1473506488149-4b23e57b87c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Hand",
-				"desc": "",
+				"desc": "A hand is the part of the body at the end of an arm. Most humans have two hands. Each hand usually has four fingers and a thumb.",
 				"picture": "https://images.unsplash.com/photo-1553109349-c7dd33e542c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},
 			{
 				"word": "Heart",
 				"desc": "The heart is a muscular organ in most animals, which pumps blood through the blood vessels of the circulatory system.",
 				"picture": "https://images.unsplash.com/photo-1555972734-22cb4b846a83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Happy",
-				"desc": "",
+				"desc": "Feeling or showing pleasure or contentment.",
 				"picture": "https://images.lifealth.com/uploads/2018/03/commitments-to-make-if-you-want-to-be-happy.jpg"
 			},
 			{
 				"word": "House",
 				"desc": "A house is a building that functions as a home. They can range from simple dwellings such as rudimentary huts of nomadic tribes and the improvised shacks in shantytowns to complex, fixed structures of wood, brick, concrete or other materials containing plumbing, ventilation, and electrical systems.",
 				"picture": "https://images.unsplash.com/photo-1434082033009-b81d41d32e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Hill",
 				"desc": "A hill is a landform that extends above the surrounding terrain.",
 				"picture": "https://images.unsplash.com/photo-1561451518-153eddec6ba5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
@@ -388,9 +409,10 @@
 				"word": "Hawk",
 				"desc": "Hawks are a group of medium-sized diurnal birds of prey of the family Accipitridae.",
 				"picture": "https://images.unsplash.com/photo-1534251369789-5067c8b8602a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Hog",
-				"desc": "",
+				"desc": "The domestic pig, often called swine, hog, or simply pig when there is no need to distinguish it from other pigs, is a domesticated large, even-toed ungulate.",
 				"picture": "https://images.unsplash.com/photo-1562862329-bb8ce7c2b66c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
 			},
 			{
@@ -418,7 +440,8 @@
 				"word": "Ivy",
 				"desc": "Hedera, commonly called ivy, is a genus of 12–15 species of evergreen climbing or ground-creeping woody plant.",
 				"picture": "https://images.unsplash.com/photo-1536837289209-12ad2b8b43bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Iris",
 				"desc": "The word Iris means rainbow. Iris is the flower of the Greek goddess Iris who is the messenger of Love.",
 				"picture": "https://images.unsplash.com/photo-1564554877501-68d9292418a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
@@ -427,7 +450,8 @@
 				"word": "Ink",
 				"desc": "Ink is a liquid or paste that contains pigments or dyes and is used to color a surface to produce an image, text, or design.",
 				"picture": "https://images.unsplash.com/photo-1530749563741-d96315d67757?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Island",
 				"desc": "Island, any area of land smaller than a continent and entirely surrounded by water.",
 				"picture": "https://images.unsplash.com/photo-1529333241880-9558d5e5e064?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -436,7 +460,8 @@
 				"word": "Inch",
 				"desc": "1 inch is equal to 2.54 centimeters",
 				"picture": "https://www.tutorialspoint.com/us_customary_units/images/paper_clip.jpg"
-			},{
+			},
+			{
 				"word": "Icicle",
 				"desc": "An icicle is a spike of ice formed when water dripping or falling from an object freezes.",
 				"picture": "https://images.unsplash.com/photo-1546900698-3052cab256fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -466,7 +491,8 @@
 				"word": "Jet",
 				"desc": "A fighter jet is a military aircraft. designed primarily for air-to-air combat against other aircraft",
 				"picture": "https://images.unsplash.com/photo-1562545876-e21ffc54d4ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Jeans",
 				"desc": "Jeans are a type of pants or trousers, typically made from denim or dungaree cloth.",
 				"picture": "https://images.unsplash.com/photo-1475178626620-a4d074967452?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -475,7 +501,8 @@
 				"word": "Jay",
 				"desc": "Jays are several species of medium-sized, usually colorful and noisy, passerine birds in the crow family.",
 				"picture": "https://images.unsplash.com/photo-1558314423-b1dcb6155b5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
-			},{
+			},
+			{
 				"word": "Jug",
 				"desc": "A jug is a type of container commonly used to hold liquids.",
 				"picture": "https://images.unsplash.com/photo-1537817236549-8265e0da25d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -484,7 +511,8 @@
 				"word": "Jump",
 				"desc": "Jumping is a form of locomotion or movement in which an organism or non-living (e.g., robotic) mechanical system propels itself through the air along a ballistic trajectory.",
 				"picture": "https://images.unsplash.com/photo-1520371764250-8213f40bc3ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Joey",
 				"desc": "Baby kangaroo",
 				"picture": "https://images.unsplash.com/photo-1551270988-87c5ea57cdfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -493,7 +521,8 @@
 				"word": "Juice",
 				"desc": "Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.",
 				"picture": "https://images.unsplash.com/photo-1549128247-37e905ebdb3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Jacket",
 				"desc": "A jacket is a mid-stomach–length garment for the upper body.",
 				"picture": "https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -518,7 +547,8 @@
 				"word": "Kite",
 				"desc": "A kite is a tethered heavier-than-air craft with wing surfaces that react against the air to create lift and drag.",
 				"picture": "https://images.unsplash.com/photo-1565967680360-414313d2646d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Knife",
 				"desc": "A knife is a tool with a cutting edge or blade attached to a handle.",
 				"picture": "https://images.unsplash.com/photo-1544965838-54ef8406f868?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
@@ -527,7 +557,8 @@
 				"word": "Key",
 				"desc": "key is a key used to open Lock.",
 				"picture": "https://images.unsplash.com/photo-1562770584-eaf50b017307?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Knot",
 				"desc": "A knot is an intentional complication in cordage which may be useful or decorative.",
 				"picture": "https://images.unsplash.com/photo-1537024278396-c5dacc9beea7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
@@ -536,7 +567,8 @@
 				"word": "Kitten",
 				"desc": "A kitten is a juvenile cat.",
 				"picture": "https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Kangaroo",
 				"desc": "The kangaroo is a marsupial from the family Macropodidae (macropods, meaning large foot).",
 				"picture": "https://images.unsplash.com/photo-1529451310546-178d75816ffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -545,7 +577,8 @@
 				"word": "Keyboard",
 				"desc": "A computer keyboard is a typewriter-style device which uses an arrangement of buttons or keys to act as mechanical levers or electronic switches.",
 				"picture": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Kitchen",
 				"desc": "Modular Kitchen is all about right materials and design.",
 				"picture": "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -558,14 +591,15 @@
 		"words": [
 			{
 				"word": "Leg",
-				"desc": "",
+				"desc": "The human leg, in the general word sense, is the entire lower limb of the human body, including the foot, thigh and even the hip or gluteal region.",
 				"picture": "https://images.unsplash.com/photo-1537094082840-dcbbfa99385f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
 			},
 			{
 				"word": "Log",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1498092651296-641e88c3b057?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Lime",
 				"desc": "Lime is a calcium-containing inorganic mineral composed primarily of oxides, and hydroxide, usually calcium oxide and/ or calcium hydroxide.",
 				"picture": "https://images.unsplash.com/photo-1561024342-ddb9779e55fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -574,7 +608,8 @@
 				"word": "Leaf",
 				"desc": "A leaf is an organ of a vascular plant and is the principal lateral appendage of the stem.",
 				"picture": "https://images.unsplash.com/photo-1533037440921-f788628f8d0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Lake",
 				"desc": "A lake is an area filled with water, localized in a basin, surrounded by land, apart from any river or other outlet that serves to feed or drain the lake.",
 				"picture": "https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -583,16 +618,18 @@
 				"word": "Lady",
 				"desc": "The word lady is a term of respect for a girl or woman.",
 				"picture": "http://www.everyonecandraw.net/Cartoon%20Steps%20JEPG/Illustrations%20for%20my%20web%20site/Full%20size%20illustrations/sexy%20lady%20complete.jpg"
-			},{
+			},
+			{
 				"word": "Lamp",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
 			},
 			{
 				"word": "Lamb",
-				"desc": "",
+				"desc": "lamb (plural lambs or (dialectal) lamber or (dialectal) lambren) A young sheep. ",
 				"picture": "https://images.unsplash.com/photo-1487541711790-6d41c9d873dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Ladder",
 				"desc": "A ladder is a vertical or inclined set of rungs or steps.",
 				"picture": "https://images.unsplash.com/photo-1504075292988-9c602eabb5dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -610,14 +647,15 @@
 		"words": [
 			{
 				"word": "Man",
-				"desc": "",
+				"desc": "Human being, person, man",
 				"picture": "https://www.clipartwiki.com/clipimg/detail/78-784534_download-free-png-happy-man-cartoon-png.png"
 			},
 			{
 				"word": "Mango",
 				"desc": "Mangoes are juicy stone fruit (drupe) from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit.",
 				"picture": "https://images.unsplash.com/photo-1553279768-865429fa0078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Milk",
 				"desc": "Milk is a nutrient-rich, white liquid food produced by the mammary glands of mammals.",
 				"picture": "https://images.unsplash.com/photo-1517448931760-9bf4414148c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -626,16 +664,18 @@
 				"word": "Moon",
 				"desc": "The Moon is an astronomical body that orbits the Earth as its only permanent natural satellite.",
 				"picture": "https://images.unsplash.com/photo-1499578124509-1611b77778c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Mom",
-				"desc": "",
+				"desc": "Mother",
 				"picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6UAZq0AGBe5hyZLJrxP8VHktrOCs13F6yAkySEvRK09qQ6QUQAg"
 			},
 			{
 				"word": "Moth",
 				"desc": "Moths are a polyphyletic group of insects that includes all members of the order Lepidoptera .... Some moths are farmed for their economic value.",
 				"picture": "https://images.unsplash.com/photo-1565824245696-d40a520a2d62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Mitten",
 				"desc": "Mitten  A type of glove or garment that covers a hand with a separate sheath for the thumb.",
 				"picture": "https://s19256.pcdn.co/wp-content/uploads/crochet-mittens-by-Brenda-Anderson.jpg"
@@ -644,7 +684,8 @@
 				"word": "Mouse",
 				"desc": "A computer mouse is a hand-held pointing device that detects two-dimensional motion relative to a surface.",
 				"picture": "https://images.unsplash.com/photo-1551515300-2d3b7bb80920?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Mike",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2014/04/03/10/28/microphone-310561_960_720.png"
@@ -669,7 +710,8 @@
 				"word": "Neck",
 				"desc": "The neck is the start of the spinal column and spinal cord.",
 				"picture": "https://i.kinja-img.com/gawker-media/image/upload/s--xhjZuvyI--/c_scale,f_auto,fl_progressive,q_80,w_800/lzzribvywziqgiuyhzvk.jpg"
-			},{
+			},
+			{
 				"word": "Nine",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2018/03/08/08/19/pay-3208063_960_720.png"
@@ -678,7 +720,8 @@
 				"word": "Notes",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Needle",
 				"desc": "",
 				"picture": "https://img.etimg.com/thumb/height-450,width-800,imgsize-8701,msid-23427082/.jpg"
@@ -687,7 +730,8 @@
 				"word": "Nest",
 				"desc": "A bird nest is the spot in which a bird lays and incubates its eggs and raises its young.",
 				"picture": "https://images.unsplash.com/photo-1439397629354-e2e3dea8f6f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Net",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1443933223857-9ca346228f72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -696,7 +740,8 @@
 				"word": "Nail",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Nut",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1547215280-d6093884688f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -714,14 +759,15 @@
 		"words": [
 			{
 				"word": "One",
-				"desc": "",
+				"desc": "Its odd number",
 				"picture": "https://cdn.pixabay.com/photo/2018/03/08/08/18/pay-3208060_960_720.png"
 			},
 			{
 				"word": "Ox",
 				"desc": "An ox (plural oxen), also known as a bullock in Australia and India, is a bovine trained as a draft animal.",
 				"picture": "https://images.unsplash.com/photo-1562360742-318972306207?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Oar",
 				"desc": "An oar is an implement used for water-borne propulsion. Oars have a flat blade at one end. Rowers grasp the oar at the other end.",
 				"picture": "https://images.unsplash.com/photo-1498618755061-8d9218526375?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -730,7 +776,8 @@
 				"word": "Owl",
 				"desc": "Owls are birds from the order Strigiformes, which includes about 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight.",
 				"picture": "https://images.unsplash.com/photo-1543549790-8b5f4a028cfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Otter",
 				"desc": "Otters are carnivorous mammals in the subfamily Lutrinae. The 13 extant otter species are all semiaquatic, aquatic or marine, with diets based on fish and invertebrates.",
 				"picture": "https://images.unsplash.com/photo-1530701594694-da628544d738?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -739,7 +786,8 @@
 				"word": "Oval",
 				"desc": "",
 				"picture": "https://image.freepik.com/free-photo/fabric-textured-backdrop-frame_53876-90113.jpg"
-			},{
+			},
+			{
 				"word": "Orange",
 				"desc": "The orange is the fruit of the citrus species Citrus × sinensis in the family Rutaceae, native to China.",
 				"picture": "https://images.unsplash.com/photo-1547514701-42782101795e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
@@ -748,7 +796,8 @@
 				"word": "Orca",
 				"desc": "The killer whale or orca is a toothed whale belonging to the oceanic dolphin family, of which it is the largest member.",
 				"picture": "https://cdn.pixabay.com/photo/2017/01/01/20/12/killer-whale-1945421__340.jpg"
-			},{
+			},
+			{
 				"word": "Onion",
 				"desc": "Onion comes in Vegitables.",
 				"picture": "https://rukminim1.flixcart.com/image/352/352/jtsz3bk0/vegetable/k/y/d/5-onion-un-branded-no-whole-original-imafdsyg4ykqcyt4.jpeg?q=70"
@@ -773,7 +822,8 @@
 				"word": "Pie",
 				"desc": "A pie is a baked dish which is usually made of a pastry dough casing that covers or completely contains a filling of various sweet or savoury ingredients.",
 				"picture": "https://images.unsplash.com/photo-1554298128-c916518a4b34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Pig",
 				"desc": "A pig is any of the animals in the genus Sus, within the even-toed ungulate family Suidae.",
 				"picture": "https://images.unsplash.com/photo-1516467508483-a7212febe31a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -782,7 +832,8 @@
 				"word": "Pen",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1524116125474-e3eec64213f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Pan",
 				"desc": "",
 				"picture": "http://freepngdownload.com/image/thumb/frying-pan-free-png-image-download-19.png"
@@ -791,7 +842,8 @@
 				"word": "Peas",
 				"desc": "The pea is most commonly the small spherical seed or the seed-pod of the pod fruit Pisum sativum.",
 				"picture": "https://images.unsplash.com/photo-1553460165-3628ccff14d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Pizza",
 				"desc": "Pizza is an italian dish in round shape.",
 				"picture": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -800,7 +852,8 @@
 				"word": "Penny",
 				"desc": "A penny is a coin or a unit of currency in various countries. Borrowed from the Carolingian denarius, it is usually the smallest denomination within a currency system.",
 				"picture": "https://images.unsplash.com/photo-1542222024-c39e2281f121?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Pencil",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -825,7 +878,8 @@
 				"word": "Quart",
 				"desc": "",
 				"picture": "https://www.thecarycompany.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/3/0/30wds4_1.1542637650.jpg"
-			},{
+			},
+			{
 				"word": "Quartz",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1545128309-686a71a99f76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -834,7 +888,8 @@
 				"word": "Quail",
 				"desc": "",
 				"picture": "https://www.allaboutbirds.org/guide/assets/photo/65610031-480px.jpg"
-			},{
+			},
+			{
 				"word": "Quilt",
 				"desc": "",
 				"picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0hvkP2O45WAe_-ukJogbHblHrFYnq3uzvE8yJA29IcWHW4aRl1A"
@@ -843,7 +898,8 @@
 				"word": "Quarter",
 				"desc": "",
 				"picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCNkBa2GnH1BJ-bKE-60rc1D4gHe2UYrrjQxrMiTB5gbg2uKUMXA"
-			},{
+			},
+			{
 				"word": "Quiver",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1563195863-dd21065cba70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -852,7 +908,8 @@
 				"word": "Quiet",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1483706600674-e0c87d3fe85b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Quiz",
 				"desc": "",
 				"picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3q7zjBeXh3vYP5UZyW7ncWr-ee0VuICYYEpKqYNT143GsEXpa"
@@ -877,7 +934,8 @@
 				"word": "Rat",
 				"desc": "Rats are various medium-sized, long-tailed rodents. Species of rats are found throughout the order Rodentia, but stereotypical rats are found in the genus Rattus.",
 				"picture": "https://www.freepngimg.com/thumb/rat/3-2-rat-free-png-image.png"
-			},{
+			},
+			{
 				"word": "Rain",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1501999635878-71cb5379c2d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -886,7 +944,8 @@
 				"word": "Robot",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1538491247542-5da27794bc65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Rabbit",
 				"desc": "Rabbits are small mammals in the family Leporidae of the order Lagomorpha.",
 				"picture": "https://images.unsplash.com/photo-1555881450-2b25f8fae15d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -895,7 +954,8 @@
 				"word": "Rock",
 				"desc": "A rock is any naturally occurring solid mass or aggregate of minerals or mineraloid matter.",
 				"picture": "https://images.unsplash.com/photo-1515952094266-696ed54f41bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Ring",
 				"desc": "A ring is a round band, usually of metal, worn as ornamental jewellery.",
 				"picture": "https://images.unsplash.com/photo-1561812350-932aed735105?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -904,7 +964,8 @@
 				"word": "Rake",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2016/04/01/11/28/garden-1300347__340.png"
-			},{
+			},
+			{
 				"word": "Robin",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1511109805822-8c2366d66100?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
@@ -929,7 +990,8 @@
 				"word": "Sit",
 				"desc": "",
 				"picture": "https://www.ergocentric.com/wp-content/uploads/3IN1_DIANA_04_REV.jpg"
-			},{
+			},
+			{
 				"word": "Star",
 				"desc": "",
 				"picture": "https://cdn.mos.cms.futurecdn.net/fdJV72xgRAbJW7TrGsx7hX-650-80.jpg"
@@ -938,7 +1000,8 @@
 				"word": "Ship",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1524522173746-f628baad3644?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Six",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2018/03/08/08/20/pay-3208065_960_720.png"
@@ -947,7 +1010,8 @@
 				"word": "Snail",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1421882100557-2daba9680b08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-			},{
+			},
+			{
 				"word": "Spoon",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1526434426615-1abe81efcb0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
@@ -956,7 +1020,8 @@
 				"word": "Snake",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1519368334033-6aab66302ffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Seven",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2018/03/08/08/20/pay-3208066_960_720.png"
@@ -981,7 +1046,8 @@
 				"word": "Toe",
 				"desc": "Bigger and Thicker finger of foot.",
 				"picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt7ipQCv6IhMGCiDmZsOuhVnD4S90eo_GNKIufCyGWRfLUDrPM"
-			},{
+			},
+			{
 				"word": "Two",
 				"desc": "two is number",
 				"picture": "https://cdn.pixabay.com/photo/2018/03/08/08/21/pay-3208069_960_720.png"
@@ -990,7 +1056,8 @@
 				"word": "Ten",
 				"desc": "Ten is a number comes after nine.",
 				"picture": "https://images.unsplash.com/photo-1522448023466-b1c85da46df0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Truck",
 				"desc": "A truck or lorry is a motor vehicle designed to transport cargo.",
 				"picture": "https://www.ttnews.com/sites/default/files/images/articles/usa-truck_0.jpg"
@@ -999,7 +1066,8 @@
 				"word": "Train",
 				"desc": "A train is a form of transport consisting of a series of connected vehicles that generally runs along a railroad track to transport cargo or passengers.",
 				"picture": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Table",
 				"desc": "",
 				"picture": "https://s7d4.scene7.com/is/image/roomandboard/?layer=0&src=698884_wood_W&layer=comp"
@@ -1008,11 +1076,13 @@
 				"word": "Taxi",
 				"desc": "A taxicab conveys passengers between locations of their choice",
 				"picture": "https://images.unsplash.com/photo-1536846511313-4b07b637bff9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Tooth",
 				"desc": "",
 				"picture": "https://bondidental.com.au/wp-content/uploads/2015/06/Tooth-Anatomy-Types-and-Function-of-your-Teeth-f.jpg"
-			},{
+			},
+			{
 				"word": "Three",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2018/03/08/08/18/pay-3208061_960_720.png"
@@ -1037,7 +1107,8 @@
 				"word": "Urn",
 				"desc": "An urn is a vase, often with a cover, with a typically narrowed neck above a rounded body and a footed pedestal.",
 				"picture": "https://cdn.pixabay.com/photo/2012/04/12/20/47/vase-30597_960_720.png"
-			},{
+			},
+			{
 				"word": "Unicorn",
 				"desc": "The unicorn is a legendary creature that has been described since antiquity as a beast with a single large, pointed, spiraling horn projecting from its forehead.",
 				"picture": "https://vignette.wikia.nocookie.net/harrypotter/images/5/50/Unicorn-2.jpg/revision/latest?cb=20170915025512"
@@ -1046,7 +1117,8 @@
 				"word": "Uncle",
 				"desc": " The brother of someone's mother or father",
 				"picture": "https://static.boredpanda.com/blog/wp-content/uploads/2018/03/cartoonist-draws-himself-100-cartoon-style-kevin-mcshane-78-5aa23da6115a2__605.jpg"
-			},{
+			},
+			{
 				"word": "Ukulele",
 				"desc": "The ukulele or ukelele is a member of the guitar family of instruments.",
 				"picture": "https://i1.wp.com/praisethelordmusic.com/wp-content/uploads/2018/06/Estrella-Ukulele.jpg?fit=416%2C295&ssl=1"
@@ -1055,7 +1127,8 @@
 				"word": "Utensils",
 				"desc": "The more general category of tableware. Some utensils are both kitchen utensils and eating utensils",
 				"picture": "https://images-na.ssl-images-amazon.com/images/I/71dcDTS8diL._SX466_.jpg"
-			},{
+			},
+			{
 				"word": "Unicycle",
 				"desc": "A unicycle is a vehicle that touches the ground with only one wheel",
 				"picture": "https://cdn10.bigcommerce.com/s-mrkn324fu0/products/1391/images/5995/NimbusII26__23549.1504813335.1280.1280.jpg?c=2"
@@ -1064,7 +1137,8 @@
 				"word": "Uniform",
 				"desc": "A uniform is a type of clothing worn by members of an organization while participating in that organization's activity",
 				"picture": "https://www.dhresource.com/0x0s/f2-albu-g8-M01-EE-45-rBVaV1wlDSqAIiycAAENb2r7kjs465.jpg/2018-new-jk-school-uniform-set-for-girls.jpg"
-			},{
+			},
+			{
 				"word": "Up",
 				"desc": "",
 				"picture": "https://images.all-free-download.com/images/graphiclarge/stack_of_book_and_red_apple_311608.jpg"
@@ -1089,7 +1163,8 @@
 				"word": "Vat",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2014/04/03/00/34/bucket-308702_960_720.png"
-			},{
+			},
+			{
 				"word": "Vase",
 				"desc": "",
 				"picture": "https://n3.sdlcdn.com/imgs/b/f/7/Pooja-Creation-White-Marble-Flower-SDL953439269-1-ba6cd.jpg"
@@ -1098,7 +1173,8 @@
 				"word": "Vest",
 				"desc": "",
 				"picture": "https://eu.patagonia.com/dis/dw/image/v2/ABBM_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw7a8a80a4/images/hi-res/84622_CACL.jpg?sw=750&sh=750&sm=fit&sfrm=png"
-			},{
+			},
+			{
 				"word": "Vine",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1502624753130-3bfbdf71c320?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
@@ -1107,7 +1183,8 @@
 				"word": "Violin",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1558556405-3071bd8d3ee6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Vote",
 				"desc": "",
 				"picture": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1063184564%2F960x0.jpg%3Ffit%3Dscale"
@@ -1116,7 +1193,8 @@
 				"word": "Vowels",
 				"desc": "",
 				"picture": "https://www.logicofenglish.com/images/Blog/2014Images/AEIOUblocks_short.png"
-			},{
+			},
+			{
 				"word": "Village",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1508348837373-76b3f1a97451?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
@@ -1141,7 +1219,8 @@
 				"word": "We",
 				"desc": "",
 				"picture": "http://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/public/field/field_image_main/friends_main.jpg?itok=Wmh9VQWO"
-			},{
+			},
+			{
 				"word": "Wall",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1533738630286-f1f4a61705f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
@@ -1150,7 +1229,8 @@
 				"word": "Wasp",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1565807150609-907345af92d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Web",
 				"desc": "",
 				"picture": "http://www.studiomenegazzo.eu/thumb/dettaglio/sito-web.jpg"
@@ -1159,7 +1239,8 @@
 				"word": "Woman",
 				"desc": "",
 				"picture": "https://image.freepik.com/free-vector/young-woman-standing-white_25030-39535.jpg"
-			},{
+			},
+			{
 				"word": "Wagon",
 				"desc": "",
 				"picture": "https://s7d2.scene7.com/is/image/homedepotcanada/p_1000850626.jpg?$pipGallery$&hei=1000&wid=1000&fmt=jpg&fit=constrain"
@@ -1168,7 +1249,8 @@
 				"word": "Weasel",
 				"desc": "",
 				"picture": "https://images.immediate.co.uk/production/volatile/sites/23/2016/06/GettyImages-997704606-205f9b8.jpg?quality=90&lb=620,413&background=white"
-			},{
+			},
+			{
 				"word": "walrus",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1460899960812-f6ee1ecaf117?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
@@ -1193,7 +1275,8 @@
 				"word": "X-ray",
 				"desc": "X-rays make up X-radiation, a form of high-energy electromagnetic radiation.",
 				"picture": "https://www.radiologyinfo.org/gallery-items/images/bone-xray-hands.jpg"
-			},{
+			},
+			{
 				"word": "Xenops",
 				"desc": "",
 				"picture": "http://www.wetcanvas.com/forums/attachment.php?attachmentid=686322&stc=1&d=1306720364"
@@ -1202,7 +1285,8 @@
 				"word": "Xylophone",
 				"desc": "The xylophone (from the Greek word) is a musical instrument in the percussion family that consists of wooden bars struck by mallets.",
 				"picture": "https://cdn.pixabay.com/photo/2012/04/13/12/09/xylophone-32128__340.png"
-			},{
+			},
+			{
 				"word": "Xerox",
 				"desc": "",
 				"picture": "https://www.xerox.com/assets/images/1200_layout/products/hardware/B1022_B1025/hero-640x440.png"
@@ -1222,7 +1306,8 @@
 				"word": "Yarn",
 				"desc": "",
 				"picture": "https://www.sugaridoo.com/wp-content/uploads/2016/09/Different-brands-of-cotton-yarn-1030x629.jpg"
-			},{
+			},
+			{
 				"word": "Yawn",
 				"desc": "",
 				"picture": "https://ksassets.timeincuk.net/wp/uploads/sites/46/2016/08/yawning-920x690.jpg"
@@ -1231,7 +1316,8 @@
 				"word": "Yell",
 				"desc": "",
 				"picture": "https://i0.wp.com/betweenusparents.com/wp-content/uploads/2016/02/07d027e5-7239-4218-8cc9-15647df8cc4b.jpg"
-			},{
+			},
+			{
 				"word": "Yolk",
 				"desc": "",
 				"picture": "https://www.abc.net.au/radionational/image/7625394-3x2-700x467.jpg"
@@ -1240,7 +1326,8 @@
 				"word": "Year",
 				"desc": "",
 				"picture": "https://images.unsplash.com/photo-1418260555520-c1538e5c2df6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
-			},{
+			},
+			{
 				"word": "Yacht",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2019/08/22/14/40/boat-4423718_960_720.jpg"
@@ -1249,7 +1336,8 @@
 				"word": "Yo-Yo",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2017/01/07/13/15/yoyo-1960314_960_720.jpg"
-			},{
+			},
+			{
 				"word": "Yard-stick",
 				"desc": "",
 				"picture": "https://imgs.michaels.com/MAM/assets/1/726D45CA1C364650A39CD1B336F03305/img/3CAB11D9256D40EDA7B61BE35477C31C/28712_9137-46_u.jpg?fit=inside|540:540"
@@ -1274,7 +1362,8 @@
 				"word": "Zebra",
 				"desc": "Zebras are several species of African equids united by their distinctive black-and-white striped coats.",
 				"picture": "https://cdn.pixabay.com/photo/2011/09/22/01/08/zebra-9928_960_720.jpg"
-			},{
+			},
+			{
 				"word": "Zipper",
 				"desc": "A zipper, zip, fly, dingy, or zip fastener, formerly known as a clasp locker, is a commonly used device for binding the edges of an opening of fabric or other flexible material, such as on a garment or a bag.",
 				"picture": "https://cdn.pixabay.com/photo/2013/07/13/11/57/zip-159043_960_720.png"
@@ -1283,7 +1372,8 @@
 				"word": "Zero",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2012/04/23/15/08/zero-38418_960_720.png"
-			},{
+			},
+			{
 				"word": "Zinnia",
 				"desc": "Zinnia is a genus of plants of the sunflower tribe within the daisy family.",
 				"picture": "https://cdn.pixabay.com/photo/2014/08/08/18/17/zinnia-413564_960_720.jpg"
@@ -1292,7 +1382,8 @@
 				"word": "Zodiac",
 				"desc": "The zodiac is an area of the sky that extends approximately 8° north or south of the ecliptic, the apparent path of the Sun across the celestial sphere over the course of the year.",
 				"picture": "https://personalitybuzz.com/wp-content/uploads/2016/11/The-Negative-Side-of-Your-Zodiac.jpg"
-			},{
+			},
+			{
 				"word": "Zigzag",
 				"desc": "",
 				"picture": "https://cdn.pixabay.com/photo/2012/04/10/16/57/chevron-26401__340.png"
@@ -1301,7 +1392,8 @@
 				"word": "Zither",
 				"desc": "Zither is a class of stringed instruments. The word Zither is a German rendering of the Greek word cithara, from which the modern word 'guitar' also derives.",
 				"picture": "https://cdn.pixabay.com/photo/2019/07/21/12/17/zither-4352644_960_720.jpg"
-			},{
+			},
+			{
 				"word": "Zeppelin",
 				"desc": "",
 				"picture": "https://upload.wikimedia.org/wikipedia/commons/d/df/Zeppellin_NT_amk.JPG"

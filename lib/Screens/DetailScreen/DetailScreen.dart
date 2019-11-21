@@ -1,6 +1,7 @@
 import 'dart:io';
 
-import 'package:firebase_admob/firebase_admob.dart';
+// import 'package:firebase_admob/firebase_admob.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 // import 'package:lwp/Screens/Common/fancy_fab.dart';
 import 'package:flutter_tts/flutter_tts.dart';
@@ -38,41 +39,41 @@ class _DetailScreenState extends State<DetailScreen> {
       ? 'ca-app-pub-3568261915655391~9783325485'
       : 'ca-app-pub-3568261915655391~4433305191';
 
-  static final MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
-    keywords: <String>['Education', 'Learning, Picture, A-Z'],
-    contentUrl: 'https://flutter.io',
-    childDirected: true,
-    // birthday: DateTime.now(),
-    // designedForFamilies: false,
-    // gender: MobileAdGender.male, // or MobileAdGender.female, MobileAdGender.unknown
-    testDevices: <String>[], // Android emulators are considered test devices
-  );
+  // static final MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
+  //   keywords: <String>['Education', 'Learning, Picture, A-Z'],
+  //   contentUrl: 'https://flutter.io',
+  //   childDirected: true,
+  //   // birthday: DateTime.now(),
+  //   // designedForFamilies: false,
+  //   // gender: MobileAdGender.male, // or MobileAdGender.female, MobileAdGender.unknown
+  //   testDevices: <String>[], // Android emulators are considered test devices
+  // );
 
-  BannerAd _bannerAd;
+  // BannerAd _bannerAd;
 
-  BannerAd createBannerAd() {
-    return BannerAd(
-      // Replace the testAdUnitId with an ad unit id from the AdMob dash.
-      // https://developers.google.com/admob/android/test-ads
-      // https://developers.google.com/admob/ios/test-ads
-      adUnitId: Platform.isAndroid
-          ? 'ca-app-pub-3568261915655391/8470243819'
-          : 'ca-app-pub-3568261915655391/3008542880',
-      size: AdSize.mediumRectangle, //AdSize.smartBanner
-      targetingInfo: targetingInfo,
-      listener: (MobileAdEvent event) {
-        print("BannerAd event is $event");
-      },
-    );
-  }
+  // BannerAd createBannerAd() {
+  //   return BannerAd(
+  //     // Replace the testAdUnitId with an ad unit id from the AdMob dash.
+  //     // https://developers.google.com/admob/android/test-ads
+  //     // https://developers.google.com/admob/ios/test-ads
+  //     adUnitId: Platform.isAndroid
+  //         ? 'ca-app-pub-3568261915655391/8470243819'
+  //         : 'ca-app-pub-3568261915655391/3008542880',
+  //     size: AdSize.mediumRectangle, //AdSize.smartBanner
+  //     targetingInfo: targetingInfo,
+  //     listener: (MobileAdEvent event) {
+  //       print("BannerAd event is $event");
+  //     },
+  //   );
+  // }
 
   @override
   void initState() {
     super.initState();
-    FirebaseAdMob.instance.initialize(appId: admobId());
-    _bannerAd = createBannerAd()
-      ..load()
-      ..show();
+    // FirebaseAdMob.instance.initialize(appId: admobId());
+    // _bannerAd = createBannerAd()
+    //   ..load()
+    //   ..show();
     initTts();
   }
 
@@ -136,7 +137,7 @@ class _DetailScreenState extends State<DetailScreen> {
   @override
   void dispose() {
     super.dispose();
-    _bannerAd?.dispose();
+    // _bannerAd?.dispose();
 
     flutterTts.stop();
   }
@@ -162,32 +163,41 @@ class _DetailScreenState extends State<DetailScreen> {
                 height: MediaQuery.of(context).size.height * 0.30,
                 width: MediaQuery.of(context).size.width,
                 child: Hero(
-                    transitionOnUserGestures: true,
-                    tag: _word.word,
-                    child: Image.network(_word.picture))),
+                  transitionOnUserGestures: true,
+                  tag: _word.word,
+                  child: CachedNetworkImage(
+                    imageUrl: _word.picture,
+                    placeholder: (context, url) =>
+                        Image.asset('images/loading.gif'),
+                    errorWidget: (context, url, error) => Icon(Icons.error),
+                  ),
+                  // Image.network(_word.picture),
+                )),
             SizedBox(height: 15),
             Expanded(
               child: Container(
-              padding: EdgeInsets.symmetric(horizontal: 16),
-              height: MediaQuery.of(context).size.height * 0.12,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: <Widget>[
-                  Text(
-                    _word.word,
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
-                  ),
-                  SizedBox(height: 10),
-                  Wrap(
-                    children: <Widget>[Text(_word.desc,style: TextStyle(fontSize: 16))],
-                  ),
-                  
-                ],
+                padding: EdgeInsets.symmetric(horizontal: 16),
+                height: MediaQuery.of(context).size.height * 0.12,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: <Widget>[
+                    Text(
+                      _word.word,
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+                    ),
+                    SizedBox(height: 10),
+                    Wrap(
+                      children: <Widget>[
+                        Text(_word.desc, style: TextStyle(fontSize: 16))
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
-            ),
-            
+
             // Expanded(
             //   child:
             // ),
