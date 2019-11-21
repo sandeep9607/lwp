@@ -5,7 +5,7 @@ import 'dart:io';
 import 'package:firebase_admob/firebase_admob.dart';
 import 'package:lwp/Model/WordModel.dart';
 
-var adCount = 0;
+// var adCount = 0;
 
 class SecondScreen extends StatefulWidget {
   final WordModel _alphabet;
@@ -44,6 +44,7 @@ class _SecondScreenState extends State<SecondScreen> {
       adUnitId: Platform.isAndroid
           ? 'ca-app-pub-3568261915655391/8470243819' //'ca-app-pub-3940256099942544/6300978111' test interestial ad
           : 'ca-app-pub-3568261915655391/3008542880',
+      //  : false,
       size: AdSize.smartBanner, //AdSize.smartBanner
       targetingInfo: targetingInfo,
       listener: (MobileAdEvent event) {
@@ -104,16 +105,16 @@ class _SecondScreenState extends State<SecondScreen> {
                   (BuildContext context, int index) {
                     return GestureDetector(
                       onTap: () {
-                        print("adCount: $adCount");
-                        if(adCount == 3){
-                          _bannerAd?.dispose();
-                          _interstitialAd = createInterstitialAd()
+                        // print("adCount: $adCount");
+                        // if (adCount == 3) {
+                        // _bannerAd?.dispose();
+                        _interstitialAd = createInterstitialAd()
                           ..load()
                           ..show();
-                          adCount = 0;
-                        }else{
-                          adCount += 1; 
-                        }
+                        //   adCount = 0;
+                        // } else {
+                        //   adCount += 1;
+                        // }
 
                         // navigate to next screen
                         Navigator.push(
