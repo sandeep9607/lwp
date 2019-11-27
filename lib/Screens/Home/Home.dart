@@ -131,7 +131,7 @@ class _HomeState extends State<Home> {
               title: Text("Share App"),
               leading: Icon(Icons.share),
               onTap: () {
-                Share.share('check out my website https://example.com');
+                Share.share('check out this useful app for kids https://play.google.com/store/apps/details?id=com.sanchi.lwp');
               },
             ),
             ListTile(

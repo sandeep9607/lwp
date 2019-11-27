@@ -6,6 +6,8 @@ import 'dart:io';
 import 'package:firebase_admob/firebase_admob.dart';
 import 'package:lwp/Model/WordModel.dart';
 
+var adCount = 0;
+
 class SecondScreen extends StatefulWidget {
   final WordModel _alphabet;
   SecondScreen(this._alphabet);
@@ -26,9 +28,6 @@ class _SecondScreenState extends State<SecondScreen> {
     keywords: <String>['Education', 'Learning, Picture, A-Z'],
     contentUrl: 'https://flutter.io',
     childDirected: true,
-    // birthday: DateTime.now(),
-    // designedForFamilies: false,
-    // gender: MobileAdGender.male, // or MobileAdGender.female, MobileAdGender.unknown
     testDevices: <String>[], // Android emulators are considered test devices
   );
 
@@ -59,7 +58,7 @@ class _SecondScreenState extends State<SecondScreen> {
       // https://developers.google.com/admob/android/test-ads
       // https://developers.google.com/admob/ios/test-ads
       adUnitId: Platform.isAndroid
-          ? 'ca-app-pub-3568261915655391/7552516456' //'ca-app-pub-3940256099942544/1033173712' test ad id
+          ? 'ca-app-pub-3568261915655391/7552516456' // 'ca-app-pub-3940256099942544/1033173712' test ad id
           : 'ca-app-pub-3568261915655391/2816971190',
       targetingInfo: targetingInfo,
       listener: (MobileAdEvent event) {
@@ -81,7 +80,9 @@ class _SecondScreenState extends State<SecondScreen> {
   void dispose() {
     super.dispose();
     _bannerAd?.dispose();
+    _bannerAd = null;
     _interstitialAd?.dispose();
+    _interstitialAd = null;
   }
 
   @override
@@ -92,7 +93,7 @@ class _SecondScreenState extends State<SecondScreen> {
       ),
       body: SafeArea(
         child: Container(
-          padding: EdgeInsets.all(10),
+          padding: EdgeInsets.only(top: 0, right: 10, bottom: 50, left: 10),
           child: CustomScrollView(
             slivers: <Widget>[
               SliverGrid(
@@ -105,10 +106,16 @@ class _SecondScreenState extends State<SecondScreen> {
                   (BuildContext context, int index) {
                     return GestureDetector(
                       onTap: () {
-                        _interstitialAd = createInterstitialAd()
-                          ..load()
-                          ..show();
-
+                        if (adCount == 2) {
+                          _bannerAd?.dispose();
+                          _bannerAd = null;
+                          _interstitialAd = createInterstitialAd()
+                            ..load()
+                            ..show();
+                          adCount = 0;
+                        } else {
+                          adCount += 1;
+                        }
                         // navigate to next screen
                         Navigator.push(
                             context,
