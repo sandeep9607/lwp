@@ -38,6 +38,9 @@ PODS:
   - Flutter (1.0.0)
   - flutter_tts (0.0.1):
     - Flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - Google-Mobile-Ads-SDK (7.48.0):
     - GoogleAppMeasurement (~> 6.0)
   - GoogleAppMeasurement (6.1.0):
@@ -73,8 +76,13 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - path_provider (0.0.1):
+    - Flutter
   - share (0.5.2):
     - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
   - url_launcher (0.0.1):
     - Flutter
 
@@ -82,7 +90,9 @@ DEPENDENCIES:
   - firebase_admob (from `.symlinks/plugins/firebase_admob/ios`)
   - Flutter (from `.symlinks/flutter/ios`)
   - flutter_tts (from `.symlinks/plugins/flutter_tts/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
   - share (from `.symlinks/plugins/share/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
   - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
 
 SPEC REPOS:
@@ -93,6 +103,7 @@ SPEC REPOS:
     - FirebaseCoreDiagnostics
     - FirebaseCoreDiagnosticsInterop
     - FirebaseInstanceID
+    - FMDB
     - Google-Mobile-Ads-SDK
     - GoogleAppMeasurement
     - GoogleDataTransport
@@ -107,8 +118,12 @@ EXTERNAL SOURCES:
     :path: ".symlinks/flutter/ios"
   flutter_tts:
     :path: ".symlinks/plugins/flutter_tts/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
   share:
     :path: ".symlinks/plugins/share/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
   url_launcher:
     :path: ".symlinks/plugins/url_launcher/ios"
 
@@ -122,13 +137,16 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: 8b42755db950682e7de0d167bc6fb26a57b244af
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_tts: 8ef9d28ecff6321d667307300dbf45151273b3fb
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Google-Mobile-Ads-SDK: 709fa768c3ba8e8b260d8cb085c607097fd3f79d
   GoogleAppMeasurement: 47285fa897e5a125df56b9ef8750a1d81e4598a8
   GoogleDataTransport: ffbadce4ab93c88fb9dd8e6366c47bfcb4a32193
   GoogleDataTransportCCTSupport: 3451e7d8ba19093e533362a6d78d6d9014c6a037
   GoogleUtilities: e7dc37039b19df7fe543479d3e4a02ac8d11bb69
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
   share: 7d22fe8baedfe93aefd864bf0b73f29711fbb0a3
+  sqflite: ff1d9da63c06588cc8d1faf7256d741f16989d5a
   url_launcher: 0067ddb8f10d36786672aa0722a21717dba3a298
 
 PODFILE CHECKSUM: ebd43b443038e611b86ede96e613bd6033c49497

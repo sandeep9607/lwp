@@ -161,24 +161,33 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"
   install_framework "${PODS_ROOT}/../.symlinks/flutter/ios/Flutter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/path_provider/path_provider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/share/share.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/sqflite/sqflite.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/url_launcher/url_launcher.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"
   install_framework "${PODS_ROOT}/../.symlinks/flutter/ios/Flutter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/path_provider/path_provider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/share/share.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/sqflite/sqflite.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/url_launcher/url_launcher.framework"
 fi
 if [[ "$CONFIGURATION" == "Profile" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework"
   install_framework "${PODS_ROOT}/../.symlinks/flutter/ios/Flutter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/path_provider/path_provider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/share/share.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/sqflite/sqflite.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/url_launcher/url_launcher.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

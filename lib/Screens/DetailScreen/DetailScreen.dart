@@ -43,9 +43,6 @@ class _DetailScreenState extends State<DetailScreen> {
     keywords: <String>['Education', 'Learning, Picture, A-Z'],
     contentUrl: 'https://flutter.io',
     childDirected: true,
-    // birthday: DateTime.now(),
-    // designedForFamilies: false,
-    // gender: MobileAdGender.male, // or MobileAdGender.female, MobileAdGender.unknown
     testDevices: <String>[], // Android emulators are considered test devices
   );
 
@@ -71,9 +68,28 @@ class _DetailScreenState extends State<DetailScreen> {
   void initState() {
     super.initState();
     FirebaseAdMob.instance.initialize(appId: admobId());
-    _bannerAd = createBannerAd()
-      ..load()
-      ..show();
+    // _bannerAd = createBannerAd()
+    //   ..load()
+    //   ..show();
+    _bannerAd = BannerAd(
+      adUnitId: Platform.isAndroid
+          ? 'ca-app-pub-3568261915655391/8470243819'
+          : 'ca-app-pub-3568261915655391/3008542880',
+      size: AdSize.largeBanner, //AdSize.smartBanner
+      targetingInfo: targetingInfo,
+      listener: (MobileAdEvent event) {
+        if (event == MobileAdEvent.loaded) {
+          // dispose after you received the loaded event seems okay.
+          if (mounted) {
+            _bannerAd..show();
+          } else {
+            _bannerAd = null;
+          }
+        }
+      },
+    )..load();
+    _bannerAd?.dispose();
+
     initTts();
   }
 
@@ -129,16 +145,16 @@ class _DetailScreenState extends State<DetailScreen> {
     if (voices != null) setState(() => voices);
   }
 
-  Future _stop() async {
-    var result = await flutterTts.stop();
-    if (result == 1) setState(() => ttsState = TtsState.stopped);
-  }
+//  Future _stop() async {
+//    var result = await flutterTts.stop();
+//    if (result == 1) setState(() => ttsState = TtsState.stopped);
+//  }
 
   @override
   void dispose() {
     super.dispose();
     _bannerAd?.dispose();
-
+    _bannerAd = null;
     flutterTts.stop();
   }
 
@@ -209,6 +225,7 @@ class _DetailScreenState extends State<DetailScreen> {
 }
 
 class CardItems extends StatelessWidget {
+
   final int index;
   final String item;
   CardItems(this.index, this.item);
